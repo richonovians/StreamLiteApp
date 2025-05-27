@@ -14,7 +14,7 @@ menu = st.sidebar.radio("Pilih Halaman:", ["Beranda", "Dataset", "Visualisasi", 
 # ----------------------- Beranda -----------------------
 if menu == "Beranda":
     st.title("🚗 Prediksi Harga Mobil")
-    st.image("D:\Documents\Semester 4\Kecerdasan Buatan\Praktik\minggu13\IMG_6684.JPG", use_column_width=True)
+    st.image("IMG_6684.JPG", use_column_width=True)
     st.markdown("""
     Selamat datang di aplikasi **Prediksi Harga Mobil**!  
     Aplikasi ini memanfaatkan model **Machine Learning (Linear Regression)** untuk memprediksi harga mobil berdasarkan:
